@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
       <section id="about"> 
-      <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center dark:bg-gray-900">
         <h2 className="text-6xl text-center flex flex-col items-center">
         <span className="font-semibold bg-gradient-to-br from-pink-500 to-purple-600 bg-clip-text text-transparent animate-pulse">Demo</span>
           <span className="font-semibold bg-gradient-to-br from-pink-500 to-purple-600 bg-clip-text text-transparent animate-pulse leading-[1.5]">Frontend Developer</span>
