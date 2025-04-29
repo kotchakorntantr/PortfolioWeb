@@ -1,10 +1,10 @@
 # 📂 Portfolio
 
 Welcome to my (Demo) portfolio!  
-This repository contains my selected works and projects that demonstrate my skills in  Web Development, UI/UX Design .
+This repository contains my selected works and projects that demonstrate my skills in Web Development, UI/UX Design .
 
 ## ✨ About Me
-Hi! I'm Kotchakorn, a Web Developer.  
+Hi! I'm Kotchakorn, a computer science student at Chiang Mai University, passionate about web development and more.
 
 ## 🛠️ Skills
 - Programming: Python, JavaScript, Go
