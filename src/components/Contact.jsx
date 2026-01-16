@@ -27,10 +27,10 @@ function Contact() {
             <div>
               <h3 className="text-xl font-bold mb-4">Follow Me</h3>
               <div className="flex space-x-4">
-                <a href="#" target="_blank" className="hover:text-pink-400 transition">GitHub</a>
-                <a href="#" target="_blank" className="hover:text-pink-400 transition">LinkedIn</a>
+                <div target="_blank" className="hover:text-pink-400 transition">GitHub</div>
+                <div target="_blank" className="hover:text-pink-400 transition">LinkedIn</div>
                 {/* <a href="https://www.linkedin.com/in/kotchakorn-tantrakool-0b53392b1/" target="_blank" className="hover:text-pink-400 transition">LinkedIn</a> */}
-                <a href="#" target="_blank" className="hover:text-pink-400 transition">Instagram</a>
+                <div target="_blank" className="hover:text-pink-400 transition">Instagram</div>
               </div>
             </div>
           </div>
