@@ -20,23 +20,14 @@ function About() {
         
           <div>
             <a
-            href="https://drive.google.com/file/d/1pHqf37Ow4CMExQlj1-1zhPlildeljvD7/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1VgCtCZ4PELqSe_ZC8BoEIAx6AwqPBAus?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="py-2.5 mt-6 px-5 me-2 mb-2 text-sm font-medium text-black  bg-white rounded-lg transition hover:text-purple-900"
           >
-            View Developer Resume
-          </a>
-          <a
-            href="https://drive.google.com/file/d/1lqXmKk7QvZ9IO0JcYGWeTyol527UASWN/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="py-2.5 mt-6 px-5 me-2 mb-2 text-sm font-medium text-black  bg-white rounded-lg transition hover:text-purple-900"
-          >
-            View BA Resume
+            View My Resume
           </a>
           </div>
-          
         </h2>
       </div>
     </section>
