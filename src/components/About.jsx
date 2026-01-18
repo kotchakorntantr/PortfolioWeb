@@ -1,12 +1,13 @@
 import React from "react";
-import DarkVeil from "./DarkVeil";
+// import DarkVeil from "./DarkVeil";
 
 function About() {
   return (
     <section id="about">
-      <div className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-purple-900 px-4 py-16 flex items-center justify-center">
+      {/* <div className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden"> */}
         {/* Background เต็มจอ */}
-        <div className="absolute inset-0">
+        {/* <div className="absolute inset-0">
           <DarkVeil
             hueShift={0}
             noiseIntensity={0}
@@ -16,7 +17,7 @@ function About() {
             warpAmount={0.5}
             resolutionScale={1}
           />
-        </div>
+        </div> */}
 
         {/* Content z-10 ให้เนื้อหาอยู่หน้าพื้นหลัง */}
         <div className="relative z-10 text-center">
