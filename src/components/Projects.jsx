@@ -3,16 +3,16 @@ import React from "react";
 function Projects() {
   return (
     <section id="projects" className="min-h-screen px-4 py-16 bg-gradient-to-br from-gray-900 to-purple-900">
-      <h2 className="text-5xl leading-[1.5] text-center font-semibold bg-gradient-to-br from-pink-500 to-purple-600 bg-clip-text text-transparent animate-pulse">
+      <h2 className="text-3xl sm:text-5xl leading-[1.5] text-center font-semibold bg-gradient-to-br from-pink-500 to-purple-600 bg-clip-text text-transparent animate-pulse">
         Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto pt-5">
         {/* การ์ด 1 */}
         <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+          <h5 className="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900">
             Web Applications 
           </h5>
-          <p className="mb-3 font-normal text-gray-700 flex-grow">
+          <p className="mb-3 font-normal text-base text-gray-700 flex-grow">
             Computer Science Internal Reservation Room System
           </p>
           <div
@@ -38,10 +38,10 @@ function Projects() {
 
         {/* การ์ด 2 */}
         <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+          <h5 className="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900 ">
             Web Applications
           </h5>
-          <p className="mb-3 font-normal text-gray-700 flex-grow">
+          <p className="mb-3 font-normal text-base text-gray-700 flex-grow">
             Computer Science Research เว็บไซต์ฐานข้อมูลผลงานนักศึกษา
           </p>
           <div
@@ -66,10 +66,10 @@ function Projects() {
 
         {/* การ์ด 3 */}
         <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+          <h5 className="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900 ">
             Data Analysis
           </h5>
-          <p className="mb-3 font-normal text-gray-700 flex-grow">
+          <p className="mb-3 font-normal text-base text-gray-700 flex-grow">
             World CorrupWon Index Dataset Analysis and Visualization
           </p>
           <div
