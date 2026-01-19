@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-        <footer id="contact" className="bg-gray-900 text-white py-12 px-4">
+        <footer id="contact" className="bg-black text-white py-12 px-4">
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Column 1: About */}
             <div>
