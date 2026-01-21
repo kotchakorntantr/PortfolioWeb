@@ -59,7 +59,7 @@ function Technologies() {
           <div
             key={index}
             className={`p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full
-              transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl
+              transition-all duration-700 ease-out hover:shadow-2xl
               ${isVisible 
                 ? 'opacity-100 translate-y-0' 
                 : 'opacity-0 translate-y-20'

@@ -59,7 +59,7 @@ function Projects() {
           <div
             key={index}
             className={`p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col h-full
-              transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl
+              transition-all duration-700 ease-out hover:shadow-2xl
               ${isVisible 
                 ? 'opacity-100 translate-y-0' 
                 : 'opacity-0 translate-y-20'
@@ -74,6 +74,18 @@ function Projects() {
             <p className="mb-3 font-normal text-base text-gray-700 flex-grow">
               {project.description}
             </p>
+            <div className="flex-grow gap-4">
+            {project.description === "Computer Science Research เว็บไซต์ฐานข้อมูลผลงานนักศึกษา" && (
+              <a
+                href="https://research.cs.science.cmu.ac.th"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-black rounded-lg hover:bg-white hover:text-black border hover:border-black w-fit transition-all duration-300"
+              >
+                View Project
+              </a>
+            )}
+            {(project.description === "Computer Science Internal Reservation Room System" || project.description === "World Corruption Index Dataset Analysis and Visualization")&& (
             <button className="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-black rounded-lg hover:bg-white hover:text-black border hover:border-black w-fit transition-all duration-300">
               Read more
               <svg
@@ -90,6 +102,8 @@ function Projects() {
                 />
               </svg>
             </button>
+            )}
+            </div>
           </div>
         ))}
       </div>
