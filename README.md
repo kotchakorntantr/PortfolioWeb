@@ -1,13 +1,11 @@
 # 📂 Portfolio
 
-Welcome to my (Demo) portfolio!  
-This repository contains my selected works and projects that demonstrate my skills in Web Development, UI/UX Design .
+Welcome to my portfolio!  
 
 ## ✨ About Me
-Hi! I'm Kotchakorn, a computer science student at Chiang Mai University, passionate about web development and more.
+Hi, I’m Kotchakorn, a fourth-year Computer Science student at Chiang Mai University with a minor in Business Administration. I am actively seeking opportunities in Frontend, Backend, and Full-stack development.
 
 ## 🛠️ Skills
-- Programming: Python, JavaScript, Go
-- Frameworks: React, Vue, Tailwind, Flask
-- Tools: Git, Docker, Figma, Visual Studio Code (VS Code)
-- Orther: HTML, CSS
+- Programming & Markup Languages: Python, Go, JavaScript, TypeScript, HTML, CSS
+- Frameworks & Libraries: React, Vue.js, Bootstrap, Tailwind CSS
+- Tools & Database: Visual Studio Code, GitHub, Gitlab, Figma, PostgreSQL
