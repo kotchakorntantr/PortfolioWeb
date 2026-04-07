@@ -44,10 +44,10 @@ function Technologies() {
     <section
       id="tech"
       ref={sectionRef}
-      className="min-h-screen bg-gradient-to-br from-purple-200 to-blue-300 px-4 py-16"
+      className=" bg-gradient-to-br from-purple-200 to-blue-300 px-4 py-16"
     >
       <h2 
-        className={`text-3xl sm:text-5xl leading-[1.5] text-center font-semibold text-black transition-all duration-1000 ${
+        className={`text-2xl sm:text-3xl leading-[1.5] text-center font-semibold text-black transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
         }`}
       >

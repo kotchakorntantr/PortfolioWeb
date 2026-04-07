@@ -4,6 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Technologies from './components/Tech';
 import Contact from './components/Contact';
+// import AboutMe from './components/AboutMe';
 
 function App() {
   // useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
     <div className="scroll-smooth">
       <Navbar />
       <About />
+      {/* <AboutMe /> */}
       <Projects />
       <Technologies />
       <Contact />
