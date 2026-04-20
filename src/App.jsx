@@ -4,8 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Technologies from './components/Tech';
 import Contact from './components/Contact';
-// import AboutMe from './components/AboutMe';
-
+import Certificate from './components/Certificate';
 function App() {
   // useEffect(() => {
   //   fetch("https://kotchakorn.app.n8n.cloud/webhook/notify-visit", {
@@ -28,6 +27,8 @@ function App() {
       {/* <AboutMe /> */}
       <Projects />
       <Technologies />
+      <Certificate />
+
       <Contact />
     </div>
   );
