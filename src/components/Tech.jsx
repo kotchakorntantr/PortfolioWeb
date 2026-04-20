@@ -4,20 +4,24 @@ function Technologies() {
   return (
     <section
       id="tech"
+      data-aos="fade-up"
       // ref={sectionRef}
       className=" bg-gradient-to-br from-purple-200 to-blue-300 px-4 py-16"
     >
       <h2 className="text-2xl sm:text-3xl leading-[1.5] text-center font-semibold text-black transition-all duration-1000 opacity-100 translate-y-0">
         Technologies and Tools
       </h2>
-      <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto">
-        <div>
-          <h2 className="text-xl font-semibold text-black mb-4">
+      <div  data-aos="fade-up" data-aos-delay="100"
+        className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto">
+        <div >
+          <h2  className="text-xl font-semibold text-black mb-4">
             Programming Language
           </h2>
           <div className="grid grid-cols-4 sm:grid-cols-6 gap-4">
             {/* go */}
-            <div className="flex flex-col items-center gap-2">
+            <div
+              className="flex flex-col items-center gap-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 510"
@@ -40,7 +44,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -71,8 +75,8 @@ function Technologies() {
                       gradientUnits="userSpaceOnUse"
                     >
                       {" "}
-                      <stop stop-color="#327EBD"></stop>{" "}
-                      <stop offset="1" stop-color="#1565A7"></stop>{" "}
+                      <stop stopColor="#327EBD"></stop>{" "}
+                      <stop offset="1" stopColor="#1565A7"></stop>{" "}
                     </linearGradient>{" "}
                     <linearGradient
                       id="paint1_linear_87_8204"
@@ -83,8 +87,8 @@ function Technologies() {
                       gradientUnits="userSpaceOnUse"
                     >
                       {" "}
-                      <stop stop-color="#FFDA4B"></stop>{" "}
-                      <stop offset="1" stop-color="#F9C600"></stop>{" "}
+                      <stop stopColor="#FFDA4B"></stop>{" "}
+                      <stop offset="1" stopColor="#F9C600"></stop>{" "}
                     </linearGradient>{" "}
                   </defs>{" "}
                 </g>
@@ -154,7 +158,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -185,7 +189,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -211,7 +215,8 @@ function Technologies() {
       </div>
 
       {/* Framwork and Libraries */}
-      <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto">
+      <div  data-aos="fade-up"
+        data-aos-delay="100" className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto">
         <div>
           <h2 className="text-xl font-semibold text-black mb-4">
             Framework and Libraries
@@ -225,7 +230,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -257,7 +262,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -284,11 +289,11 @@ function Technologies() {
                 fill="#06b6d4"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
-                xml:space="preserve"
+                xmlSpace="preserve"
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -311,13 +316,13 @@ function Technologies() {
                 viewBox="0 0 256 256"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 preserveAspectRatio="xMidYMid"
                 fill="#000000"
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -349,7 +354,8 @@ function Technologies() {
       </div>
 
       {/* Tools and Database */}
-      <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto">
+      <div  data-aos="fade-up"
+        data-aos-delay="100" className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto">
         <div>
           <h2 className="text-xl font-semibold text-black mb-4">
             Tools and Database
@@ -364,7 +370,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -395,8 +401,8 @@ function Technologies() {
                       gradientUnits="userSpaceOnUse"
                     >
                       {" "}
-                      <stop stop-color="#32B5F1"></stop>{" "}
-                      <stop offset="1" stop-color="#2B9FED"></stop>{" "}
+                      <stop stopColor="#32B5F1"></stop>{" "}
+                      <stop offset="1" stopColor="#2B9FED"></stop>{" "}
                     </linearGradient>{" "}
                     <linearGradient
                       id="paint1_linear_87_8101"
@@ -407,12 +413,12 @@ function Technologies() {
                       gradientUnits="userSpaceOnUse"
                     >
                       {" "}
-                      <stop stop-color="#0F6FB3"></stop>{" "}
-                      <stop offset="0.270551" stop-color="#1279B7"></stop>{" "}
-                      <stop offset="0.421376" stop-color="#1176B5"></stop>{" "}
-                      <stop offset="0.618197" stop-color="#0E69AC"></stop>{" "}
-                      <stop offset="0.855344" stop-color="#0F70AF"></stop>{" "}
-                      <stop offset="1" stop-color="#0F6DAD"></stop>{" "}
+                      <stop stopColor="#0F6FB3"></stop>{" "}
+                      <stop offset="0.270551" stopColor="#1279B7"></stop>{" "}
+                      <stop offset="0.421376" stopColor="#1176B5"></stop>{" "}
+                      <stop offset="0.618197" stopColor="#0E69AC"></stop>{" "}
+                      <stop offset="0.855344" stopColor="#0F70AF"></stop>{" "}
+                      <stop offset="1" stopColor="#0F6DAD"></stop>{" "}
                     </linearGradient>{" "}
                     <linearGradient
                       id="paint2_linear_87_8101"
@@ -423,8 +429,8 @@ function Technologies() {
                       gradientUnits="userSpaceOnUse"
                     >
                       {" "}
-                      <stop stop-color="#1791D2"></stop>{" "}
-                      <stop offset="1" stop-color="#1173C5"></stop>{" "}
+                      <stop stopColor="#1791D2"></stop>{" "}
+                      <stop offset="1" stopColor="#1173C5"></stop>{" "}
                     </linearGradient>{" "}
                   </defs>{" "}
                 </g>
@@ -438,7 +444,7 @@ function Technologies() {
                 viewBox="0 0 20 20"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 fill="#000000"
                 width={54}
                 height={54}
@@ -495,7 +501,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -548,7 +554,7 @@ function Technologies() {
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   strokeLinecap="round"
@@ -633,17 +639,17 @@ function Technologies() {
                 viewBox="-4 0 264 264"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 preserveAspectRatio="xMidYMid"
                 fill="#000000"
                 width={54}
                 height={54}
               >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   {" "}
