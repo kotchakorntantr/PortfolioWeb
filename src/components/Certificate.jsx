@@ -12,13 +12,13 @@ function Certificate() {
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto"
+          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0  max-w-3xl mx-auto"
         >
-          <div>
+
             <h2 className="text-xl font-semibold text-black mb-4">
               รางวัลนักศึกษาดีเด่นด้านการจัดกิจกรรมนักศึกษา ประจำปีการศึกษา 2567
             </h2>
-            <p className="text-sm text-black mb-4">
+            <p className="text-sm text-black mb-4 flex-grow">
               คณะวิทยาศาสตร์ มหาวิทยาลัยเชียงใหม่
             </p>
             <div className="flex gap-4">
@@ -39,18 +39,16 @@ function Certificate() {
                 รูปภาพประกอบ
               </a>
             </div>
-          </div>
         </div>
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto"
+          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0  max-w-3xl mx-auto"
         >
-          <div>
             <h2 className="text-xl font-semibold text-black mb-4">
-              Thailand Cyber Top Talent 2023
+              Thailand Cyber Top Talent 2023 - Participation
             </h2>
-            <p className="text-sm text-black mb-4">
+            <p className="text-sm text-black mb-4 flex-grow">
               สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ
             </p>
             <a
@@ -61,19 +59,17 @@ function Certificate() {
             >
               View Certificate
             </a>
-          </div>
         </div>
 
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto"
+          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 max-w-3xl mx-auto"
         >
-          <div>
             <h2 className="text-xl font-semibold text-black mb-4">
               Postman API Fundamentals Student Expert
             </h2>
-            <p className="text-sm text-black mb-4">Postman</p>
+            <p className="text-sm text-black mb-4 flex-grow">Postman</p>
             <a
               href="https://drive.google.com/file/d/1Gd9AZD13a8brpfToi3XQOzevsX6oECy5/view"
               target="_blank"
@@ -82,19 +78,17 @@ function Certificate() {
             >
               View Certificate
             </a>
-          </div>
         </div>
 
         <div
           data-aos="fade-up"
           data-aos-delay="100"
-          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0 mt-10 max-w-3xl mx-auto"
+          className="p-6 bg-white border border-gray-200 rounded-lg shadow-xl flex flex-col w-full transition-all duration-700 ease-out hover:shadow-2xl opacity-100 translate-y-0  max-w-3xl mx-auto"
         >
-          <div>
             <h2 className="text-xl font-semibold text-black mb-4">
               Series BBLAM x CMU Focus Wealth Management
             </h2>
-            <p className="text-sm text-black mb-4">
+            <p className="text-sm text-black mb-4 flex-grow">
               BBLAM & Chiang Mai University
             </p>
             <a
@@ -106,7 +100,6 @@ function Certificate() {
               View Certificate
             </a>
           </div>
-        </div>
       </div>
     </section>
   );

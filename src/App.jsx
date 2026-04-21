@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Technologies from './components/Tech';
 import Contact from './components/Contact';
 import Certificate from './components/Certificate';
+// import Hero from './components/Hero';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -32,6 +33,7 @@ function App() {
   return (
     <div className="scroll-smooth">
       <Navbar />
+      {/* <Hero /> */}
       <About />
       {/* <AboutMe /> */}
       <Projects />
