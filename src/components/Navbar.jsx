@@ -31,7 +31,7 @@ function Navbar() {
           <a href="#tech" className="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:border-0 hover:text-pink-400 md:p-0 ">Technologies</a>
         </li>
         <li>
-          <a href="#tech" className="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:border-0 hover:text-pink-400 md:p-0 ">Certificates</a>
+          <a href="#certificate" className="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:border-0 hover:text-pink-400 md:p-0 ">Certificates</a>
         </li>
         <li>
           <a href="#contact" className="block py-2 px-3 text-gray-900 rounded-sm md:hover:bg-transparent md:border-0 hover:text-pink-400 md:p-0 ">Contact</a>
