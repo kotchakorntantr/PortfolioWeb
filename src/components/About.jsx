@@ -8,7 +8,7 @@ function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-5xl w-full items-center">
           <div className="flex items-center justify-center relative z-10 pt-12 sm:pt-8 order-1 sm:order-2">
             <img
-              src="/mypic.JPG"
+              src="/mypic.webp"
               alt="Profile"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
@@ -70,9 +70,10 @@ function About() {
                 <p>
                   <span className="font-semibold text-pink-400"> Email:</span> kotchakorntantrakool@gmail.com
                 </p>
-                <p>
+                {/* <p>
                   <span className="font-semibold text-pink-400"> Phone:</span> +66 990 049 499
-                </p>
+                </p> */}
+                
               </div>
               
            

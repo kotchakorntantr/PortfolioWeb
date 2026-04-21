@@ -16,7 +16,7 @@ function Contact() {
               <ul className="space-y-2 text-gray-400">
                 <li>Email: <a href="mailto:your.email@example.com" className="hover:text-white">kotchakorntantrakool@gmail.com</a></li>
                 {/* <li>Email: <a href="mailto:your.email@example.com" className="hover:text-white">kotchakorntantrakool@gmail.com</a></li> */}
-                <li>Phone: <span className="text-white">+66 990 049 499</span></li>
+                {/* <li>Phone: <span className="text-white">+66 990 049 499</span></li> */}
                 <li>Location: <span className="text-white">Thailand</span></li>
               </ul>
             </div>
