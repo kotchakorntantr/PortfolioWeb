@@ -31,7 +31,7 @@ function Certificate() {
                 View Certificate
               </a>
               <a
-                href="https://drive.google.com/file/d/17tE9RSxwQjDCpWMQ6gRo5uS1vEDxOYoK/view?usp=drive_link"
+                href="https://drive.google.com/file/d/17tE9RSxwQjDCpWMQ6gRo5uS1vEDxOYoK/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-pink-400 bg-white rounded-lg hover:bg-white hover:text-black border hover:border-black w-fit transition-all duration-300"
